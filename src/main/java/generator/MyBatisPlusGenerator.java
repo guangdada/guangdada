@@ -50,7 +50,7 @@ public class MyBatisPlusGenerator {
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("root");
-        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/guns?characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/krvip?characterEncoding=utf8");
         mpg.setDataSource(dsc);
 
         // 策略配置
@@ -62,9 +62,9 @@ public class MyBatisPlusGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setParent(null);
-        pc.setEntity("com.stylefeng.guns.common.persistence.model");
-        pc.setMapper("com.stylefeng.guns.common.persistence.dao");
-        pc.setXml("com.stylefeng.guns.common.persistence.dao.mapping");
+        pc.setEntity("com.ikoori.vip.common.persistence.model");
+        pc.setMapper("com.ikoori.vip.common.persistence.dao");
+        pc.setXml("com.ikoori.vip.common.persistence.dao.mapping");
         pc.setService("TTT");       //本项目没用，生成之后删掉
         pc.setServiceImpl("TTT");   //本项目没用，生成之后删掉
         pc.setController("TTT");    //本项目没用，生成之后删掉
