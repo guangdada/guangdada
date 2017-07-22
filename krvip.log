@@ -391,3 +391,5 @@
 2017-07-22 11:54:13.921 DEBUG 4668 --- [http-nio-8080-exec-7] c.i.v.m.system.dao.RoleDao.selectRoles   : ==>  Preparing: select id, num, pid, name, deptid, tips, version from role 
 2017-07-22 11:54:13.923 DEBUG 4668 --- [http-nio-8080-exec-7] c.i.v.m.system.dao.RoleDao.selectRoles   : ==> Parameters: 
 2017-07-22 11:54:13.925 DEBUG 4668 --- [http-nio-8080-exec-7] c.i.v.m.system.dao.RoleDao.selectRoles   : <==      Total: 2
+2017-07-22 12:07:21.251  INFO 4668 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Validating all active sessions...
+2017-07-22 12:07:21.252  INFO 4668 --- [SessionValidationThread-1] a.s.s.m.AbstractValidatingSessionManager : Finished session validation.  No sessions were stopped.
