@@ -39,5 +39,6 @@ public class GunsApplication extends WebMvcConfigurerAdapter{
     public static void main(String[] args) {
         SpringApplication.run(GunsApplication.class, args);
         logger.info("GunsApplication is sussess!");
+        logger.info("GunsApplication is sussess!");
     }
 }
