@@ -57,6 +57,7 @@ public class MyBatisPlusGenerator {
         StrategyConfig strategy = new StrategyConfig();
         //strategy.setTablePrefix(new String[]{"_"});// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
+        strategy.setInclude(new String[] { "t_color" }); // 需要生成的表
         mpg.setStrategy(strategy);
 
         // 包配置
